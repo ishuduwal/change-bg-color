@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap:50px;
+}
+#inputcolor{
+    height: 40px;
+    width: 50px;
+    border: none;
+    cursor: grab;
+}
+.button{
+    width: 155px;
+    height: 35px;
+    border: 1px solid black;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
